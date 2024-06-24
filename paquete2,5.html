@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paquete 2.5: Encerado Motocicleta</title>
+    <style>
+          body {
+            background-image: url('imagen/fondo4.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .package-info {
+            margin-bottom: 30px;
+        }
+        .package-info p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .package-info ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .package-info ul li {
+            list-style-type: disc;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        .package-price {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .package-price strong {
+            font-size: 28px;
+            color: #B12704;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            font-size: 20px;
+            background-color: #FF9900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buy-button:hover {
+            background-color: #FF7D00;
+        }
+        .package-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .package-image img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Paquete 2.5: Encerado Motocicleta</h1>
+        <div class="package-image">
+            <img src="imagen/moto.avif" alt="Paquete 2.5: Encerado Motocicleta">
+        </div>
+        <div class="package-info">
+            <p>¡Bienvenido al paquete de encerado para motocicletas de Autolavado MG!</p>
+            <p>Este paquete está diseñado para brindar a su motocicleta una capa protectora de cera de alta calidad, asegurando un brillo duradero y protección contra los elementos.</p>
+            <ul>
+                <li>Limpieza exterior antes del encerado</li>
+                <li>Aplicación de cera protectora</li>
+                <li>Pulido para un acabado brillante</li>
+                <li>Protección contra rayos UV</li>
+                <li>Eliminación de pequeñas imperfecciones en la pintura</li>
+            </ul>
+            <p>¡Confíe en nosotros para mantener su motocicleta brillante y protegida!</p>
+        </div>
+        <div class="package-price">
+            <strong>Precio: $200.00</strong>
+        </div>
+        <button class="buy-button" onclick="mostrarMensaje()">Comprar Ahora</button>
+    </div>
+    <script>
+        function mostrarMensaje() {
+            alert('Has Comprado Este Paquete.');
+        }
+    </script>
+</body>
+</html>

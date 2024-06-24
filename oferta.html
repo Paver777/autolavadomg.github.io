@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas Especiales</title>
+    <style>
+          body {
+            background-image: url('imagen/Fondo2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .offer-info {
+            margin-bottom: 30px;
+        }
+        .offer-info p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .offer-price {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .offer-price strong {
+            font-size: 28px;
+            color: #B12704;
+        }
+        .buy-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            font-size: 20px;
+            background-color: #FF9900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buy-button:hover {
+            background-color: #FF7D00;
+        }
+        .offer-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .offer-image img {
+            max-width: 600px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Oferta Especial</h1>
+        <div class="offer-image">
+            <img src="imagen/oferta.jpg" alt="Oferta Especial">
+        </div>
+        <div class="offer-info">
+            <p>Aprovecha nuestra oferta especial de lavado para Automóviles, donde obtendrás un descuento de $100.00 en el precio original de $550.00. ¡Deja tu automóvil reluciente y ahórrate dinero al mismo tiempo!</p>
+            <p>Este paquete incluye un lavado completo de 2 carros exterior e interior, eliminación de manchas y suciedad incrustada, así como un acabado de brillo para hacer que tu automóvil luzca como nuevo.</p>
+        </div>
+        <div class="offer-price">
+            <strong>Ahora por solo $450.00</strong>
+        </div>
+        <button class="buy-button" onclick="mostrarMensaje()">Obtener Oferta</button>
+    </div>
+    <script>
+        function mostrarMensaje() {
+            alert('Has Obtendido la Oferta Especial.');
+        }
+    </script>
+</body>
+</html>
